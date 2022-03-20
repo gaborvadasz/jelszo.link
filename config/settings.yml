@@ -4,6 +4,12 @@
 # this new config gem, then we'll migrate entirely to the new Settings
 # format for private instances too.
 
+# To run in a subfolder, specify the path to use.  For example, if `relative_root`
+# is set too 'pwpush_root', then the application is hosted at https://<host>/pwpush_root/
+# (and this is where you will find the front page of the application).
+# Environment variable override: PWP__RELATIVE_ROOT='pwpush'
+# relative_root: '/pwpush'
+
 # Logins are disabled by default since they require an MTA (email) server
 # available to send emails through.
 # For instructions on how to enable logins, see this page:
