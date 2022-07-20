@@ -8,7 +8,7 @@
 # available to send emails through.
 # For instructions on how to enable logins, see this page:
 # https://github.com/pglombardo/PasswordPusher/discussions/276
-enable_logins: false
+enable_logins: true
 
 # By default, Password Pusher can be used by anonymous users to push
 # new passwords and generate secret URLs.  If you want to limit functionality
@@ -48,9 +48,9 @@ host_protocol: 'https'
 # filled out with valid values.
 mail:
   raise_delivery_errors: false
-  # smtp_address: smtp.example.com
-  # smtp_user_name: 'apikey'
-  # smtp_password: ''
+   smtp_address: in-v3.mailjet.com
+   smtp_user_name: '2cee8807d4fc712f01886b1c3c62b514'
+   smtp_password: '08d610a96059314246aa82a4bb9c396b'
   smtp_port: 587
   smtp_authentication: 'plain'
   smtp_starttls: true
@@ -86,5 +86,5 @@ language_codes:
 # valid/supported language codes from the list above.
 # Example: default_locale: :es
 # Environment Variable Override: PWP__DEFAULT_LOCALE='es'
-default_locale: :en
+default_locale: :hu
 
