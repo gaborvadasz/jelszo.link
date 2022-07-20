@@ -48,9 +48,9 @@ host_protocol: 'https'
 # filled out with valid values.
 mail:
   raise_delivery_errors: false
-   smtp_address: in-v3.mailjet.com
-   smtp_user_name: '2cee8807d4fc712f01886b1c3c62b514'
-   smtp_password: '08d610a96059314246aa82a4bb9c396b'
+   smtp_address: 
+   smtp_user_name: ''
+   smtp_password: ''
   smtp_port: 587
   smtp_authentication: 'plain'
   smtp_starttls: true
